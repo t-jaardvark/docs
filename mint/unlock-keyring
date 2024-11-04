@@ -1,0 +1,27 @@
+#### Login-keyring Management Guide (Cinnamon/Linux Mint)
+
+##### SEO
+Stop "Unlock login keyring" in Linux Mint.
+
+##### Overview
+- Login-keyring password SHOULD match user login password if user logs in manually
+- Login-keyring password SHOULD be empty if "login automatically" IS used
+
+###### For Manual Login Users:
+- Open "Passwords and Keys"
+- Right-click Login keyring
+- Select "Change Password"
+- Set to match user login password
+
+###### For Auto-Login Users:
+- Open "Passwords and Keys"
+- Right-click Login keyring
+- Select "Change Password"
+- Leave password fields empty
+- Acknowledge security warning
+
+###### Alternative:
+- Configure applications to not use keyring (if supported)
+- Example: Chrome has this option
+
+Note: Empty keyring password reduces security but eliminates unlock prompts.
