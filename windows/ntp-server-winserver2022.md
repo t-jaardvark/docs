@@ -1,4 +1,4 @@
-```
+```batch
 @echo off
 echo Setting up NTP Server on Windows Server 2022...
 
