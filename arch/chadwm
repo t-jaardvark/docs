@@ -1,1 +1,3 @@
-sudo pacman -S ttf-jetbrains-mono-nerd xorg-xsetroot
+#!/bin/bash
+sudo pacman -S dash imlib2 xorg-xsetroot ttf-jetbrains-mono-nerd picom feh acpi rofi
+sudo pacman -Syu
